@@ -27,10 +27,10 @@
 
 #candle-light {
   position: relative;
-  background-color: rgb(78, 76, 76);
+  background-color: grey;
   top: 25px;
   left: -37px;
-  width: 5px;
+  width: 7px;
   height: 5px;
 }
 
