@@ -35,10 +35,10 @@ header {
 
 #candle-light {
   position: relative;
-  background-color: grey;
+  background-color: darkslategrey;
   top: 25px;
-  left: -37px;
-  width: 7px;
+  left: -39px;
+  width: 9px;
   height: 5px;
 }
 
@@ -53,36 +53,56 @@ header {
   background: linear-gradient(white 70%, transparent);
   box-shadow: 0 -10px 25px 10px darkorange;
   border-radius: 50%;
-  animation: blink 7s alternate infinite;
+  animation: blink 15s alternate infinite;
 }
 
 @keyframes blink {
   0% {
     bottom: 9px;
     width: 21px;
-    left: -4px;
+    left: -3.5px;
     transform: rotateY(7deg);
     transform: rotateZ(7deg);
   }
-  25% {
+  15% {
     width: 25px;
     bottom: 8px;
     left: -8px;
     transform: rotateY(0deg);
     transform: rotateZ(0deg);
   }
-  50% {
+  30% {
+    bottom: 9px;
+    width: 23px;
+    left: -11px;
+    transform: rotateY(-7deg);
+    transform: rotateZ(-7deg);
+  }
+  45% {
     width: 27px;
+    bottom: 8px;
+    left: -10px;
+    transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+  }
+  60% {
+    bottom: 9px;
+    width: 21px;
+    left: -3.5px;
+    transform: rotateY(7deg);
+    transform: rotateZ(7deg);
+  }
+  75% {
+    width: 25px;
     bottom: 8px;
     left: -8px;
     transform: rotateY(0deg);
     transform: rotateZ(0deg);
   }
-
-  75% {
+  90% {
     bottom: 9px;
     width: 23px;
-    left: -10px;
+    left: -11px;
     transform: rotateY(-7deg);
     transform: rotateZ(-7deg);
   }
@@ -115,11 +135,12 @@ h2 {
 
 section {
   padding-top: 237px;
-  width: 290px;
+  width: 315px;
   margin: 0 auto;
 }
 
 iframe {
-  width: 290px;
+  width: 310px;
   margin: 10px 0 10px 0;
+  border: 1px solid white;
 }
